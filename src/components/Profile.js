@@ -1,6 +1,23 @@
 import React from "react";
 import Menu from "./Menu";
 import h1 from '../assets/h1.png';
+import h2 from '../assets/h2.png';
+import h3 from '../assets/h3.png';
+import h4 from '../assets/h4.png';
+import h5 from '../assets/h5.png';
+import h6 from '../assets/h6.png';
+import h7 from '../assets/h7.png';
+import h8 from '../assets/h8.png';
+import h9 from '../assets/h9.png';
+import h10 from '../assets/h10.png';
+import h11 from '../assets/h11.png';
+import h12 from '../assets/h12.png';
+import h13 from '../assets/h13.png';
+import h14 from '../assets/h14.png';
+import h15 from '../assets/h15.png';
+import h16 from '../assets/h16.png';
+import h17 from '../assets/h17.png';
+import h18 from '../assets/h18.png';
 import {IonPage,IonGrid,IonRow,IonCol,IonSegment,IonAvatar, IonSegmentButton, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonIcon, IonItem, IonLabel } from '@ionic/react';
   
 
