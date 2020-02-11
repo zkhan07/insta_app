@@ -14,7 +14,7 @@ const Profile = () => {
                     <IonGrid>
                         <IonRow>
                             <IonCol>
-                                <img className="ui mini circular image" src="/h1.png" />
+                                <img className="ui mini circular image" src="h1.png" />
                                 ImZAIDKHAN786
                             </IonCol>
                             <IonCol>
