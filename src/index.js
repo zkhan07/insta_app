@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 
-import {HashRouter , Route , Redirect} from 'react-router-dom';
+import {HashRouter , Route } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 
 /* Core CSS required for Ionic components to work properly */
@@ -27,7 +27,7 @@ ReactDOM.render(
     <HashRouter>
 
         <Route exact path='/' component={Dashboard}/> 
-        <Route exact path="/" render={() => <Redirect to="/home" />} />
+        
        
     </HashRouter>    
     , document.getElementById('root'));
