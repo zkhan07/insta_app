@@ -1,4 +1,5 @@
 import React from "react";
+import Menu from "./Menu";
 import {IonPage,IonGrid,IonRow,IonCol,IonSegment,IonAvatar, IonSegmentButton, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonIcon, IonItem, IonLabel } from '@ionic/react';
   
 
@@ -7,15 +8,14 @@ const Profile = () => {
         <div>
             <IonPage>
                 <IonContent>
+                    
+                    <Menu />
 
                     <IonGrid>
-
-                        
-
-                        <IonRow size="9">
+                        <IonRow>
                             <IonCol>
                                 <img className="ui circular image" src="h1.png" />
-                                ImZAIDKHAN
+                                ImZAIDKHAN786
                             </IonCol>
                             <IonCol>
                                 <br/><br/>

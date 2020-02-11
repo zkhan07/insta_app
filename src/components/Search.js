@@ -32,8 +32,8 @@ const Search = () => {
                     </IonSegmentButton>
                 </IonSegment>
 
-                <IonGrid>
 
+                <IonGrid>
                     <IonRow size="9">
                         <IonGrid>
                             <IonRow size="12">
@@ -53,9 +53,7 @@ const Search = () => {
                         </IonCol>
                     </IonRow>
 
-                    
-
-          
+                
                     <IonRow>
                         <IonCol>
                             <img src="h1.png" />
@@ -171,8 +169,6 @@ const Search = () => {
                     </IonRow>
 
                     
-
-          
                     <IonRow>
                         <IonCol>
                             <img src="h1.png" />

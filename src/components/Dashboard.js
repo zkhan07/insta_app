@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonReactRouter } from '@ionic/react-router';
-import { Route } from 'react-router-dom';
+import { Route , Redirect } from 'react-router-dom';
 
 import Home from "./Home";
 import Search from "./Search";
@@ -41,6 +41,7 @@ const Dashboard = () => {
             <IonRouterOutlet>
 
                 <Route path="/home" component={Home} exact={true} />
+                <Route exact path="/" render={() => <Redirect to="/home" />} />
                 <Route path="/search" component={Search} exact={true} />
                 <Route path="/add" component={Add} exact={true} />
                 <Route path="/like" component={Like} exact={true} />
@@ -49,19 +50,19 @@ const Dashboard = () => {
             </IonRouterOutlet>
 
             <IonTabBar color="light" slot="bottom">
-                <IonTabButton tab="home" href="/home" active>
+                <IonTabButton tab="home" href="/home" >
                     <IonIcon name="home" />
                 </IonTabButton>
-                <IonTabButton tab="search" href="/search" active>
+                <IonTabButton tab="search" href="/search">
                     <IonIcon name="search" />
                 </IonTabButton>
-                <IonTabButton tab="add" href="/add" active>
+                <IonTabButton tab="add" href="/add">
                     <IonIcon name="add-circle-outline" />
                 </IonTabButton>
-                <IonTabButton tab="like" href="/like" active>
+                <IonTabButton tab="like" href="/like">
                     <IonIcon name="heart" />
                 </IonTabButton>
-                <IonTabButton tab="profile" href="/profile" active>
+                <IonTabButton tab="profile" href="/profile">
                     <IonIcon name="person" />
                 </IonTabButton>
             </IonTabBar>
