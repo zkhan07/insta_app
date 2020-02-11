@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 
-import {HashRouter , Route} from 'react-router-dom';
+import {HashRouter , Route , Redirect} from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 
 /* Core CSS required for Ionic components to work properly */
