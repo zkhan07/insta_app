@@ -27,6 +27,7 @@ ReactDOM.render(
     <HashRouter>
 
         <Route exact path='/' component={Dashboard}/> 
+        <Route exact path="/" render={() => <Redirect to="/home" />} />
        
     </HashRouter>    
     , document.getElementById('root'));
