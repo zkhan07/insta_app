@@ -16,8 +16,8 @@
     "static/js/6.8f5bf3ac.chunk.js.map": "/insta_app/static/js/6.8f5bf3ac.chunk.js.map",
     "static/js/7.488aa2cf.chunk.js": "/insta_app/static/js/7.488aa2cf.chunk.js",
     "static/js/7.488aa2cf.chunk.js.map": "/insta_app/static/js/7.488aa2cf.chunk.js.map",
-    "main.js": "/insta_app/static/js/main.d5187223.chunk.js",
-    "main.js.map": "/insta_app/static/js/main.d5187223.chunk.js.map",
+    "main.js": "/insta_app/static/js/main.82add0a6.chunk.js",
+    "main.js.map": "/insta_app/static/js/main.82add0a6.chunk.js.map",
     "runtime-main.js": "/insta_app/static/js/runtime-main.93ab4c36.js",
     "runtime-main.js.map": "/insta_app/static/js/runtime-main.93ab4c36.js.map",
     "static/css/10.b4eed300.chunk.css": "/insta_app/static/css/10.b4eed300.chunk.css",
@@ -202,7 +202,7 @@
     "static/js/99.4efd94b1.chunk.js": "/insta_app/static/js/99.4efd94b1.chunk.js",
     "static/js/99.4efd94b1.chunk.js.map": "/insta_app/static/js/99.4efd94b1.chunk.js.map",
     "index.html": "/insta_app/index.html",
-    "precache-manifest.682e84885f38e5290066c8f2c7663f55.js": "/insta_app/precache-manifest.682e84885f38e5290066c8f2c7663f55.js",
+    "precache-manifest.3382f5535f5c142696824ce8b2ee4a05.js": "/insta_app/precache-manifest.3382f5535f5c142696824ce8b2ee4a05.js",
     "service-worker.js": "/insta_app/service-worker.js",
     "static/css/10.b4eed300.chunk.css.map": "/insta_app/static/css/10.b4eed300.chunk.css.map",
     "static/js/10.74bd4752.chunk.js.LICENSE.txt": "/insta_app/static/js/10.74bd4752.chunk.js.LICENSE.txt",
@@ -912,6 +912,6 @@
     "static/js/runtime-main.93ab4c36.js",
     "static/css/10.b4eed300.chunk.css",
     "static/js/10.74bd4752.chunk.js",
-    "static/js/main.d5187223.chunk.js"
+    "static/js/main.82add0a6.chunk.js"
   ]
 }
