@@ -32,7 +32,7 @@ const Profile = () => {
                     <IonGrid>
                         <IonRow>
                             <IonCol>
-                                <img className="ui mini circular image" src={h1} />
+                                <img className="ui circular image" src={h1} />
                                 ImZAIDKHAN786
                             </IonCol>
                             <IonCol>
@@ -78,73 +78,73 @@ const Profile = () => {
                     <IonGrid>
                         <IonRow>
                             <IonCol>
-                                <img src="h1.png" />
+                                <img src={h1} />
                             </IonCol>
                             <IonCol>
-                                <img src="h2.png" />
+                                <img src={h2} />
                             </IonCol>
                             <IonCol>
-                                <img src="h3.png" />
-                            </IonCol>
-                        </IonRow>
-
-                        <IonRow>
-                            <IonCol>
-                                <img src="h4.png" />
-                            </IonCol>
-                            <IonCol>
-                                <img src="h5.png" />
-                            </IonCol>
-                            <IonCol>
-                                <img src="h6.png" />
+                                <img src={h3} />
                             </IonCol>
                         </IonRow>
 
                         <IonRow>
                             <IonCol>
-                                <img src="h7.png" />
+                                <img src={h4} />
                             </IonCol>
                             <IonCol>
-                                <img src="h8.png" />
+                                <img src={h5} />
                             </IonCol>
                             <IonCol>
-                                <img src="h9.png" />
-                            </IonCol>
-                        </IonRow>
-
-                        <IonRow>
-                            <IonCol>
-                                <img src="h10.png" />
-                            </IonCol>
-                            <IonCol>
-                                <img src="h11.png" />
-                            </IonCol>
-                            <IonCol>
-                                <img src="h12.png" />
+                                <img src={h6} />
                             </IonCol>
                         </IonRow>
 
                         <IonRow>
                             <IonCol>
-                                <img src="h13.png" />
+                                <img src={h7} />
                             </IonCol>
                             <IonCol>
-                                <img src="h14.png" />
+                                <img src={h8} />
                             </IonCol>
                             <IonCol>
-                                <img src="h15.png" />
+                                <img src={h9} />
                             </IonCol>
                         </IonRow>
 
                         <IonRow>
                             <IonCol>
-                                <img src="h16.png" />
+                                <img src={h10} />
                             </IonCol>
                             <IonCol>
-                                <img src="h17.png" />
+                                <img src={h11} />
                             </IonCol>
                             <IonCol>
-                                <img src="h18.png" />
+                                <img src={h12} />
+                            </IonCol>
+                        </IonRow>
+
+                        <IonRow>
+                            <IonCol>
+                                <img src={h13} />
+                            </IonCol>
+                            <IonCol>
+                                <img src={h14} />
+                            </IonCol>
+                            <IonCol>
+                                <img src={h15} />
+                            </IonCol>
+                        </IonRow>
+
+                        <IonRow>
+                            <IonCol>
+                                <img src={h16} />
+                            </IonCol>
+                            <IonCol>
+                                <img src={h17} />
+                            </IonCol>
+                            <IonCol>
+                                <img src={h18} />
                             </IonCol>
                         </IonRow>
 
