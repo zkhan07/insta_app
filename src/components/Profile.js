@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "./Menu";
-import h1 from './src/assets/h1.png';
+import h1 from '../assets/h1.png';
 import {IonPage,IonGrid,IonRow,IonCol,IonSegment,IonAvatar, IonSegmentButton, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonIcon, IonItem, IonLabel } from '@ionic/react';
   
 
