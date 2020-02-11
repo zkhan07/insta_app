@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "./Menu";
+import h1 from './src/assets/h1.png';
 import {IonPage,IonGrid,IonRow,IonCol,IonSegment,IonAvatar, IonSegmentButton, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonIcon, IonItem, IonLabel } from '@ionic/react';
   
 
@@ -14,7 +15,7 @@ const Profile = () => {
                     <IonGrid>
                         <IonRow>
                             <IonCol>
-                                <img className="ui mini circular image" src="h1.png" />
+                                <img className="ui mini circular image" src={h1} />
                                 ImZAIDKHAN786
                             </IonCol>
                             <IonCol>
