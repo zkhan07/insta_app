@@ -18,12 +18,14 @@ import h16 from '../assets/h16.png';
 import h17 from '../assets/h17.png';
 import h18 from '../assets/h18.png';
 import {IonPage,IonGrid,IonRow,IonCol,IonSegment, IonSegmentButton, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonIcon, IonItem, IonLabel } from '@ionic/react';
-  
+
 
 const Search = () => {
     return(
         <div>
             <IonPage>
+
+            
                 <IonContent>
 
                 <IonSegment color="dark" scrollable>
@@ -224,17 +226,6 @@ const Search = () => {
                             <img src={h9} />
                         </IonCol>
                     </IonRow>
-
-
-
-                
-
-                
-
-                  
-
-                   
-
                   
                     </IonGrid>
                 </IonContent>

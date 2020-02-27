@@ -36,6 +36,7 @@ const Dashboard = () => {
             <IonIcon size="large" slot="end" name="paper-plane" />
           </IonToolbar>
         </IonHeader>
+
         <IonContent>
           <IonTabs>
             <IonRouterOutlet>

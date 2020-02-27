@@ -1,4 +1,6 @@
-import React from "react";
+import React , { useState , useEffect } from "react";
+import axios from "axios";
+
 import h1 from '../assets/h1.png';
 import h2 from '../assets/h2.png';
 import h3 from '../assets/h3.png';
@@ -21,6 +23,29 @@ import {IonPage,IonSegment,IonAvatar,IonList, IonButton, IonCard, IonCardContent
   
 
 const Home = () => {
+    const [photo, setPhoto] = useState("");
+    const [clientId, setClientId] = useState("8b675cb704111832812ec9e721682f5abcde4301abf3ba090d28686ca4078bb2");
+
+    const [result, setResult] = useState([]);
+
+    // function handleChange(event) {
+    //     setPhoto(event.target.value);
+    // }
+    useEffect(() => {
+        console.log(photo);
+
+        const url = "https://api.unsplash.com/search/photos?page=1&query=man&client_id="+clientId;
+
+        axios.get(url).then(response => {
+            console.log(response);
+            setResult(response.data.results);
+        });
+    },[])
+
+    // function handleSubmit(event) {
+    
+    // }
+
     return(
         <div>
             <IonPage>
@@ -90,6 +115,68 @@ const Home = () => {
                     <div className="ui divider"></div>
                     <br/>
 
+
+                    <div className="ui container">
+                        <div className="ui items">
+                                {
+                                    result.map((photo) => (
+                                        <>
+
+                                        <div class="ui  list">
+                                            <div class="item">
+                                                <div class="left floated content">
+                                                    <img class="ui avatar image" src={h1} />
+                                                </div>
+                                                <div className="left floated content">
+                                                    <div className="header">
+                                                    zaid_khan123
+                                                    </div>
+                                                    <div className="content">
+                                                        Virar
+                                                    </div>
+                                                </div>
+                                                <div class="right floated content">
+                                                    <i className="ellipsis vertical icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="ui large image">
+                                            <img src={photo.urls.small} width="400" height="400" />
+                                        </div>
+
+                                        <div className="ui secondary menu">
+                                            <div className="item">
+                                                <i className="large heart outline icon"></i>
+                                                <i className="large comment outline icon"></i>
+                                                <i className="large send outline icon"></i>
+                                            </div>
+                                            <div className="right item">
+                                                <i className="large bookmark outline icon"></i>
+                                            </div>
+                                        </div>
+
+                                        1080 likes <br/>
+                                        Liked_by_zaidkhan_and 112 others 5zaan_shaikh Good Day, Enjoy Day Alot #Peacefull
+
+                                        <div class="ui middle aligned animated list">
+                                            <div class="item">
+                                                <img class="ui avatar image" src={h1} />
+                                                <div class="content">
+                                                    <IonInput type="text" placeholder="Add a Comment...." ></IonInput> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br/>
+                                        </>
+                                    ))
+                                }
+                            </div>
+                        </div>
+
+                    <br/>
+
+
                     {/* Card 1 */}
                     <div className="ui container">
                         <div class="ui  list">
@@ -112,8 +199,19 @@ const Home = () => {
                         </div>
                         
                         <div className="ui large image">
+                            {/* {
+                                result.map((photo) => (
+                                    <>
+                                    <div className="ui small image">
+                                        <img src={photo.urls.small} width="400" height="400" />
+                                    </div>
+                                    zaid bhai
+                                    </>
+                                ))
+                            } */}
                             <img src={h1} />
                         </div>
+                     
                         <div className="ui secondary menu">
                             <div className="item">
                                 <i className="large heart outline icon"></i>
